@@ -12,7 +12,8 @@
             if (window.location.pathname != '/play/fishing') {
                 alert('You must be in a fishing frenzy game!');
             } else {
-                let weight = Number(parseFloat(prompt('How much weight do you want?')));
+                let weight = 10000000000000000000000
+                    (parseFloat(prompt('How much weight do you want?')));
                 reactHandler().stateNode.setState({ weight2: weight, weight });
         
                 alert('Weight set!');
